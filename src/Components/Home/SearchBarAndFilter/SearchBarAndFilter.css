@@ -1,0 +1,45 @@
+.homeTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeTop input, .homeTop select{
+    outline: none;
+    border: none;
+}
+
+.searchBar, .filter{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.searchBar, .homeTop select{
+    padding: 0.7rem 2rem;
+}
+
+/* SearchBar */
+.searchBar input{
+    width: 17rem;
+}
+
+.magnificientGlass{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+
+#light .magnificientGlass{
+    background-image: url('../../../assets/images/black-search.svg');
+}
+
+#dark .magnificientGlass{
+    background-image: url('../../../assets/images/white-search.svg');
+}
+
+/* Filter */
+.homeTop select{
+    cursor: pointer;
+}
+

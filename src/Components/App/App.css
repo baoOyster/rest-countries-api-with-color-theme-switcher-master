@@ -1,0 +1,31 @@
+/* paddingSides use for padding both header and the main part */
+.paddingSides{
+  padding: 0 2%;
+}
+
+#light{
+  background-color: #fff;
+  color: hsl(200, 15%, 8%);
+}
+
+#dark{
+  background-color: hsl(207, 26%, 17%);
+  color: #fff;
+}
+
+#light ::placeholder, 
+#light select, 
+#light .searchBar,
+#light button,
+#light header{
+    color: hsl(200, 15%, 8%);
+}
+
+#dark ::placeholder, 
+#dark select, 
+#dark .searchBar,
+#dark button,
+#dark header{
+    color: #fff;
+    background-color: hsl(209, 23%, 22%);
+}
