@@ -1,4 +1,5 @@
 /* paddingSides use for padding both header and the main part */
+
 .paddingSides{
   padding: 0 2%;
 }
@@ -17,15 +18,22 @@
 #light select, 
 #light .searchBar,
 #light button,
-#light header{
+#light header,
+#light .countryInfo{
     color: hsl(200, 15%, 8%);
+    background-color: hsl(0, 0%, 98%);
 }
 
 #dark ::placeholder, 
 #dark select, 
 #dark .searchBar,
 #dark button,
-#dark header{
+#dark header,
+#dark .countryInfo{
     color: #fff;
     background-color: hsl(209, 23%, 22%);
+}
+
+.getBold{
+  font-weight: 500;
 }

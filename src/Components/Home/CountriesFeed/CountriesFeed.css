@@ -1,0 +1,25 @@
+.countriesFeed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styling for each individual country */
+.country{
+    margin-top: 2rem;
+    width: 292px;
+}
+
+.flagImage{
+    height: 192px;
+    width: 292px;
+}
+
+.countryInfo{
+    padding: 1rem 5% 2rem;
+    height: 200px;
+}
+
+.countryInfo h3 {
+    margin-bottom: 1rem;
+}
