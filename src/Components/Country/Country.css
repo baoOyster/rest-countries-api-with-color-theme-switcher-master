@@ -95,5 +95,15 @@
 
     .borderInfo{
         padding-bottom: 2rem;
+        flex-direction: column;
+    }
+
+    .borderCountries{
+        margin-top: 1rem;
+        justify-content: space-around;
+    }
+
+    .borderCountry{
+        margin: 0;
     }
 }
