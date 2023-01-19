@@ -33,14 +33,14 @@ const SearchBarAndFilter = () => {
           <input onChange={searching} id={theme} type='text' placeholder='Search for a country...' className='searchInput'/>
         </div>
         <div className="filter">
-        <select onChange={filterByRegion} name="countrySelector" id={theme} >
-          <option value='All'>All</option>
-          <option value="Africa">Africa</option>
-          <option value="Americas">Americas</option>
-          <option value="Asia">Asia</option>
-          <option value="Europe">Europe</option>
-          <option value="Oceania">Oceania</option>
-        </select>
+          <select onChange={filterByRegion} name="countrySelector" id={theme} >
+            <option value='All'>All</option>
+            <option value="Africa">Africa</option>
+            <option value="Americas">Americas</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
         </div>
     </div>
   )

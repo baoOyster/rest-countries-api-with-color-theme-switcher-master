@@ -1,4 +1,3 @@
-import './Home.css';
 import React, { useEffect } from 'react'
 import SearchBarAndFilter from './SearchBarAndFilter/SearchBarAndFilter';
 import { useDispatch } from 'react-redux';

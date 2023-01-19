@@ -1,0 +1,99 @@
+/* Styling the back button */
+.backButton{
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.arrowIcon{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.2rem;
+}
+
+#light .arrowIcon{
+    background-image: url('../../assets/images/arrow-left-solid.svg');
+} 
+
+#dark .arrowIcon{
+    background-image: url('../../assets/images/white-arrow-left.svg');
+}
+
+/* Styling the main content part */
+.countryMainContent{
+    display: flex;
+}
+/* right part of main content */
+.countryRight{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.countryRight img{
+    height: 100%;
+    width: 80%;
+}
+/* left part of the main content */
+.countryLeft{
+    flex: 50%;
+}
+
+.informations{
+    display: flex;
+    margin: 2rem 0 4rem;
+}
+
+.leftInfo{
+    flex: 50%;
+    padding-right: 15%;
+}
+
+.rightInfo{
+    flex: 50%;
+}
+
+.borderInfo{
+    display: flex;
+}
+
+.borderCountries{
+    display: flex;
+}
+
+.borderCountry{
+    margin-left: 1rem;
+    padding: 0 1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1024px){
+    .countryMainContent{
+        flex-direction: column;
+    }
+
+    .countryLeft{
+        margin-top: 1.5rem;
+    }
+
+    .informations{
+        flex-direction: column;
+    }
+
+    .informations p{
+        line-height: 2rem;
+    }
+
+    .rightInfo{
+        margin-top: 2rem;
+    }
+
+    .borderInfo{
+        padding-bottom: 2rem;
+    }
+}

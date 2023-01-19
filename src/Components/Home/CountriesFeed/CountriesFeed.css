@@ -12,7 +12,7 @@
 
 .flagImage{
     height: 192px;
-    width: 292px;
+    width: 100%;
 }
 
 .countryInfo{
@@ -22,4 +22,16 @@
 
 .countryInfo h3 {
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .country{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .country{
+        width: 95%;
+    }
 }

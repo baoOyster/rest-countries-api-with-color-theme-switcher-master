@@ -1,3 +1,4 @@
+import './Country.css';
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -30,27 +31,41 @@ const Country = () => {
     function getBorders() {
         return (
             <div className="borderCountries">
-                {countryInfo.borders.map(country => (<div className="borderCountry">{country}</div>))}
+                {countryInfo.borders.map(country => (<div id={theme} className="borderCountry">{country}</div>))}
             </div>
         )
     }
     return (
     <div className="countryDes">
-        <div className='backButton' onClick={() => {navigate('/home', {replace: true})}}>
-            <div id={theme}></div>
+        <div id={theme} className='backButton' onClick={() => {navigate('/home', {replace: true})}}>
+            <div id={theme} className="arrowIcon"></div>
             <p>Back</p>
         </div>
-        <img src={countryInfo.flags.png} alt="flag" />
-        <h1>{countryInfo.name.common}</h1>
-        <div className="informations">
-            <p><span className='getBold'>Native Name:</span> {getNativeName()}</p>
-            <p><span className='getBold'>Population:</span> {countryInfo.population}</p>
-            <p><span className='getBold'>Region:</span> {countryInfo.region}</p>
-            <p><span className='getBold'>Sub Region:</span> {countryInfo.subregion}</p>
-            <p><span className='getBold'>Capital:</span> {countryInfo.capital}</p>
-            <p><span className='getBold'>Currencies:</span> {getCurrencies()}</p>
-            <p><span className='getBold'>Languages:</span> {getLanguages()}</p>
-            <p><span className='getBold'>Border Countries:</span> {getBorders()}</p>
+        {/* I have been confused left and right =)) */}
+        <div className="countryMainContent">
+            <div className='countryRight'>
+                <img src={countryInfo.flags.png} alt="flag" />
+            </div>
+            <div className='countryLeft'>
+                <h1>{countryInfo.name.common}</h1>
+                <div className="informations">
+                    <div className='leftInfo'>
+                        <p><span className='getBold'>Native Name:</span> {getNativeName()}</p>
+                        <p><span className='getBold'>Population:</span> {countryInfo.population}</p>
+                        <p><span className='getBold'>Region:</span> {countryInfo.region}</p>
+                        <p><span className='getBold'>Sub Region:</span> {countryInfo.subregion}</p>
+                    </div>
+                    <div className='rightInfo'>
+                        <p><span className='getBold'>Capital:</span> {countryInfo.capital}</p>
+                        <p><span className='getBold'>Currencies:</span> {getCurrencies()}</p>
+                        <p><span className='getBold'>Languages:</span> {getLanguages()}</p>
+                    </div>
+                </div>
+                <div className="borderInfo">
+                    <p className='getBold'>Border Countries:</p>
+                    {getBorders()}
+                </div>
+            </div>
         </div>
     </div>
   )

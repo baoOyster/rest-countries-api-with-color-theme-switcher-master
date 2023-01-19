@@ -12,6 +12,11 @@
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
+    border-radius: 5px;
+}
+
+.filter{
+    width: 140px;
 }
 
 .searchBar, .homeTop select{
@@ -28,6 +33,8 @@
     height: 1rem;
     margin-right: 1.2rem;
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #light .magnificientGlass{
@@ -43,3 +50,12 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px){
+    .homeTop{
+        flex-direction: column;
+    }
+
+    .filter{
+        margin-top: 2.6rem;
+    }
+}

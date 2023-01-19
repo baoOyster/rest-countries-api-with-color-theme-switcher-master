@@ -19,7 +19,9 @@
 #light .searchBar,
 #light button,
 #light header,
-#light .countryInfo{
+#light .countryInfo,
+#light.backButton,
+#light.borderCountry{
     color: hsl(200, 15%, 8%);
     background-color: hsl(0, 0%, 98%);
 }
@@ -29,7 +31,9 @@
 #dark .searchBar,
 #dark button,
 #dark header,
-#dark .countryInfo{
+#dark .countryInfo,
+#dark.backButton,
+#dark.borderCountry{
     color: #fff;
     background-color: hsl(209, 23%, 22%);
 }
