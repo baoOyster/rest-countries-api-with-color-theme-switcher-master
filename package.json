@@ -1,7 +1,7 @@
 {
   "name": "rest-countries-api-with-color-theme-switcher-master",
   "version": "0.1.0",
-  "homepage": "https://typhuCN.github.io/rest-countries-api-with-color-theme",
+  "homepage": "https://typhuCN.github.io/rest-countries-api-with-color-theme-switcher-master",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
