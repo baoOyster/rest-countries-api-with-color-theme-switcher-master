@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rest-countries-api-with-color-theme/static/css/main.4ca257d4.css",
-    "main.js": "/rest-countries-api-with-color-theme/static/js/main.10f582de.js",
-    "static/js/787.ca4fc2de.chunk.js": "/rest-countries-api-with-color-theme/static/js/787.ca4fc2de.chunk.js",
-    "index.html": "/rest-countries-api-with-color-theme/index.html",
-    "static/media/moon-regular.svg": "/rest-countries-api-with-color-theme/static/media/moon-regular.109df74278f43666d50c.svg",
-    "static/media/moon-solid.svg": "/rest-countries-api-with-color-theme/static/media/moon-solid.902b8567f990f5acc882.svg",
-    "static/media/white-search.svg": "/rest-countries-api-with-color-theme/static/media/white-search.60f540ce5256c51be36b.svg",
-    "static/media/black-search.svg": "/rest-countries-api-with-color-theme/static/media/black-search.06e310dbfbf3ab21da47.svg",
-    "static/media/white-arrow-left.svg": "/rest-countries-api-with-color-theme/static/media/white-arrow-left.60f590c30628a6377522.svg",
-    "static/media/arrow-left-solid.svg": "/rest-countries-api-with-color-theme/static/media/arrow-left-solid.c2f448c5164d01e45bc2.svg",
-    "main.4ca257d4.css.map": "/rest-countries-api-with-color-theme/static/css/main.4ca257d4.css.map",
-    "main.10f582de.js.map": "/rest-countries-api-with-color-theme/static/js/main.10f582de.js.map",
-    "787.ca4fc2de.chunk.js.map": "/rest-countries-api-with-color-theme/static/js/787.ca4fc2de.chunk.js.map"
+    "main.css": "/rest-countries-api-with-color-theme-switcher-master/static/css/main.7a556473.css",
+    "main.js": "/rest-countries-api-with-color-theme-switcher-master/static/js/main.57519a97.js",
+    "static/js/787.ca4fc2de.chunk.js": "/rest-countries-api-with-color-theme-switcher-master/static/js/787.ca4fc2de.chunk.js",
+    "index.html": "/rest-countries-api-with-color-theme-switcher-master/index.html",
+    "static/media/moon-regular.svg": "/rest-countries-api-with-color-theme-switcher-master/static/media/moon-regular.109df74278f43666d50c.svg",
+    "static/media/moon-solid.svg": "/rest-countries-api-with-color-theme-switcher-master/static/media/moon-solid.902b8567f990f5acc882.svg",
+    "static/media/white-search.svg": "/rest-countries-api-with-color-theme-switcher-master/static/media/white-search.60f540ce5256c51be36b.svg",
+    "static/media/black-search.svg": "/rest-countries-api-with-color-theme-switcher-master/static/media/black-search.06e310dbfbf3ab21da47.svg",
+    "static/media/white-arrow-left.svg": "/rest-countries-api-with-color-theme-switcher-master/static/media/white-arrow-left.60f590c30628a6377522.svg",
+    "static/media/arrow-left-solid.svg": "/rest-countries-api-with-color-theme-switcher-master/static/media/arrow-left-solid.c2f448c5164d01e45bc2.svg",
+    "main.7a556473.css.map": "/rest-countries-api-with-color-theme-switcher-master/static/css/main.7a556473.css.map",
+    "main.57519a97.js.map": "/rest-countries-api-with-color-theme-switcher-master/static/js/main.57519a97.js.map",
+    "787.ca4fc2de.chunk.js.map": "/rest-countries-api-with-color-theme-switcher-master/static/js/787.ca4fc2de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ca257d4.css",
-    "static/js/main.10f582de.js"
+    "static/css/main.7a556473.css",
+    "static/js/main.57519a97.js"
   ]
 }
